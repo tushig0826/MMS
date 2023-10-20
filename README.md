@@ -32,7 +32,8 @@ Date: 2023 October 20
 
 
 <p align="center">
-Task 1.1
+
+  Task 1.1
 
 The following code snippet demonstrates the fixed bugs in chat.js file:
 
