@@ -1,39 +1,31 @@
 <p align="center">
   <img src="https://github.com/tushig0826/MMS/blob/main/screenshots/BME.PNG" />
 </p>
-  
 
-
-Budapest University of Technology and Economics
-Faculty of Electrical Engineering and Informatics
-Department of Telecommunications and Media Informatics
-
-
-WebRTC Laboratory Report
-
-
-
-
-
-
-
-Student:  Bat-Erdene Tushig	    	Neptun#: QBI3JH	
-
-
-
-
-Field: 	Computer Engineering     Specialization: Infocommunication 
-Github: https://github.com/tushig0826/MMS
-
-
-
-Date: 2023 October 20
-
-
-
+<p align="center">**Budapest University of Technology and Economics**</p>
+<p align="center">Faculty of Electrical Engineering and Informatics</p>
+<p align="center">Department of Telecommunications and Media Informatics</p>
+<br/>
+<br/>
+<br/>
+<p align="center">WebRTC Laboratory Report</p>
+<br/>
+<br/>
+<p align="center">Student:  Bat-Erdene Tushig	    	Neptun#: QBI3JH	</p>
+<br/>
+<br/>
+<p align="center">Field: 	Computer Engineering     Specialization: Infocommunication </p>
+<p align="center">Github: https://github.com/tushig0826/MMS</p>
+<br/>
+<br/>
+<p align="center">Date: 2023 October 20</p>
+<br/>
+<br/>
+<br/>
+<br/>
 <p align="center">
 
-  Task 1.1
+  **Task 1.1**
 
 The following code snippet demonstrates the fixed bugs in chat.js file:
 
@@ -45,7 +37,7 @@ pc.oniceconnectionstatechange = onIceConnectionStateChange;
 ![figure1](https://github.com/tushig0826/MMS/blob/main/screenshots/figure_1.PNG)
 <p align="center">Figure 1. Result after fixing the bug</p>
 
-Task 1.2:
+**Task 1.2:**
 WebRTC connection it has to be defined:
 var pc = new RTCPeerConnection();
 To establish a connection, caller has to call which means that has to create an offer. In other words, when the user clicks on a call button, the call function will be called and it sets the calling variable to true. Then it creates an offer based on the pc.createOffer() function:
@@ -166,7 +158,7 @@ function onIceConnectionStateChange(event) {
 }
 ```
 
-Task 1.3:
+**Task 1.3:**
 
 Session Description Protocol is for describing multimedia sessions such as session announcement, session invitation, and so on. 
 ![figure2](https://github.com/tushig0826/MMS/blob/main/screenshots/figure_2.PNG)
@@ -206,7 +198,7 @@ In the above figure, It demonstrates if ICE candidate generated (console.log('IC
 
 
 
-Task 2.2:
+**Task 2.2:**
 Both resolutions written below were supported.
 ```ruby
 navigator.mediaDevices.getUserMedia({
@@ -260,7 +252,7 @@ video {
 
 
 
-Task 2.3:
+**Task 2.3:**
 ![figure6](https://github.com/tushig0826/MMS/blob/main/screenshots/figure_6.PNG)
 <p align="center"> Figure 6. Webrtc-internals tools to check degradation </p>
 Left side is our first caller where the bandwidth set to 50000 kb/s
@@ -277,6 +269,6 @@ In the following figure 7, the values of the callers where bandwidth has been se
 
 
 
-Task 2.4:
+**Task 2.4:**
 ![figure8](https://github.com/tushig0826/MMS/blob/main/screenshots/diagram_v2.png)
 <p align="center"> Figure 8. Architecture diagram </p>
