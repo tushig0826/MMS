@@ -258,7 +258,8 @@ video {
 Left side is our first caller where the bandwidth set to 50000 kb/s
 (file:///C:/Users/tushig.baterdene/Downloads/WebRTC/MMS-main/chat.html [ rid: 106, lid: 4, pid: 14284 ])  and right side is second caller where the bandwidth set to 100000 kb/s(file:///C:/Users/tushig.baterdene/Downloads/WebRTC/MMS-main/chat.html [ rid: 103, lid: 5, pid: 17396 ])
 In the following figure 7, the values of the callers where bandwidth has been set to 50000 kb/s is 12.089, and 100000 kb/s is 20.15 in quality limitation duration.
-![figure7](https://github.com/tushig0826/MMS/blob/main/screenshots/figure_7.PNG)
+
+![figure7](https://github.com/tushig0826/MMS/blob/main/screenshots/figure_6.PNG)
 <p align="center"> Figure 7. Quality Limitation duration with bandwidth</p>
 
 
