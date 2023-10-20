@@ -261,6 +261,6 @@ Figure 7. Quality Limitation duration with bandwidth
 
 
 Task 2.4:
-![figure8](https://github.com/tushig0826/MMS/blob/main/screenshots/diagram.png)
+![figure8](https://github.com/tushig0826/MMS/blob/main/screenshots/diagram_v2.png)
 Figure 8. Architecture diagram 
 </p>
