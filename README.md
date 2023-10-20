@@ -42,7 +42,7 @@ pc.onicecandidate = onLocalICECandidateGenerated;
 pc.oniceconnectionstatechange = onIceConnectionStateChange;
 
 ![figure1](https://github.com/tushig0826/MMS/blob/main/screenshots/figure_1.PNG)
-Figure 1. Result after fixing the bug
+<p align="center">Figure 1. Result after fixing the bug</p>
 
 Task 1.2:
 WebRTC connection it has to be defined:
@@ -158,7 +158,7 @@ Task 1.3:
 
 Session Description Protocol is for describing multimedia sessions such as session announcement, session invitation, and so on. 
 ![figure2](https://github.com/tushig0826/MMS/blob/main/screenshots/figure_2.PNG)
-Figure 2: Overview of SDP with the minimal needed messages for a connection setup source: [ http://help.aarenet.com/wiki/Support_voip_protocol ]
+<p align="center">Figure 2: Overview of SDP with the minimal needed messages for a connection setup source: [ http://help.aarenet.com/wiki/Support_voip_protocol ] </p>
 As you can see from the figure 2, the SDP answer/offer model is used by two devices or users to reach acknowledgement on the description of the session. 
 The offering side indicates the desired session description in the offer with codec list and port.
 The answering side replies to the offer with the desired session description from its own viewpoint. If the offering side receives the answer with expected codec and port or information then acknowledgement will be sent and connection will be established. 
@@ -185,9 +185,9 @@ function onIceConnectionStateChange(event)f {
 }
 
 ![figure3](https://github.com/tushig0826/MMS/blob/main/screenshots/figure_3.PNG)
-Figure 3. Setted bandwidth 5000
+<p align="center">Figure 3. Setted bandwidth 5000 </p>
 ![figure4](https://github.com/tushig0826/MMS/blob/main/screenshots/figure_4.PNG)
-Figure 4. Console output
+<p align="center"> Figure 4. Console output </p>
 In the above figure, It demonstrates if ICE candidate generated (console.log('ICE candidate generated: ', event.candidate);) and adding ICE candidate was successful (console.log('Ice candidate added successfully');).
 
 
@@ -217,7 +217,7 @@ navigator.mediaDevices.getUserMedia({
 
 
 ![figure5](https://github.com/tushig0826/MMS/blob/main/screenshots/figure_5.PNG)
-Figure 5: Result
+<p align="center"> Figure 5: Result </p>
 We can also modify HTML files highlighted sections to change height and width:
 video {
       position: relative;
@@ -245,12 +245,12 @@ video {
 
 Task 2.3:
 ![figure6](https://github.com/tushig0826/MMS/blob/main/screenshots/figure_6.PNG)
-Figure 6. Webrtc-internals tools to check degradation
+<p align="center"> Figure 6. Webrtc-internals tools to check degradation </p>
 Left side is our first caller where the bandwidth set to 50000 kb/s
 (file:///C:/Users/tushig.baterdene/Downloads/WebRTC/MMS-main/chat.html [ rid: 106, lid: 4, pid: 14284 ])  and right side is second caller where the bandwidth set to 100000 kb/s(file:///C:/Users/tushig.baterdene/Downloads/WebRTC/MMS-main/chat.html [ rid: 103, lid: 5, pid: 17396 ])
 In the following figure 7, the values of the callers where bandwidth has been set to 50000 kb/s is 12.089, and 100000 kb/s is 20.15 in quality limitation duration.
 ![figure7](https://github.com/tushig0826/MMS/blob/main/screenshots/figure_7.PNG)
-Figure 7. Quality Limitation duration with bandwidth
+<p align="center"> Figure 7. Quality Limitation duration with bandwidth</p>
 
 
 
@@ -262,5 +262,4 @@ Figure 7. Quality Limitation duration with bandwidth
 
 Task 2.4:
 ![figure8](https://github.com/tushig0826/MMS/blob/main/screenshots/diagram_v2.png)
-Figure 8. Architecture diagram 
-</p>
+<p align="center"> Figure 8. Architecture diagram </p>
