@@ -176,7 +176,9 @@ function onLocalICECandidateGenerated(event) {
   }
 }
 
-function onAddIceCandidateSuccess() {}
+function onAddIceCandidateSuccess() {
+  console.log('Ice candidate added successfully');
+}
 
 function onIceConnectionStateChange(event) {
   console.log(pc.iceConnectionState);
